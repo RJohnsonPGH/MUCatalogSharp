@@ -1,10 +1,10 @@
-# MSUpdateAPI
+# MUCatalogSharp
 
 A .NET library for querying and retrieving metadata from the Microsoft Windows Update service. This library provides a simple, modern API for accessing Windows Update categories, classifications, products, and update information programmatically.
 
 ## Description
 
-MSUpdateAPI is built on top of Microsoft's update infrastructure and provides strongly-typed models for working with Windows Update data. The library handles the complexity of communicating with Microsoft's update services and exposes an easy-to-use API for retrieving update categories, metadata, files, and product hierarchies.
+MUCatalogSharp is built on top of Microsoft's update infrastructure and provides strongly-typed models for working with Windows Update data. The library handles the complexity of communicating with Microsoft's update services and exposes an easy-to-use API for retrieving update categories, metadata, files, and product hierarchies.
 
 The library is designed for applications that need to query Windows Update information, such as update management tools, compliance systems, or automated patch deployment solutions.
 
@@ -19,7 +19,7 @@ The library is designed for applications that need to query Windows Update infor
 
 ## Installation
 
-Add a reference to the `UpdateLib` project in your solution, or build and reference the compiled assembly.
+Add a reference to the `MUCatalogSharp` project in your solution, or build and reference the compiled assembly.
 
 ## Basic Usage
 
@@ -28,8 +28,8 @@ Add a reference to the `UpdateLib` project in your solution, or build and refere
 Categories include classifications (e.g., Security Updates, Critical Updates) and products (e.g., Windows 10, Windows 11).
 
 ```csharp
-using UpdateLib;
-using UpdateLib.Progress;
+using MUCatalogSharp;
+using MUCatalogSharp.Progress;
 
 var progress = new Progress<DetailedProgress>(p =>
 {
@@ -47,7 +47,7 @@ await foreach (var category in UpdateRetriever.GetCategoriesAsync(progress))
 You can filter categories to retrieve only specific types:
 
 ```csharp
-using UpdateLib.Filters;
+using MUCatalogSharp.Filters;
 
 // Get only classifications
 await foreach (var classification in UpdateRetriever.GetCategoriesAsync(
@@ -71,7 +71,7 @@ await foreach (var product in UpdateRetriever.GetCategoriesAsync(
 To retrieve updates, you must specify at least one product GUID and one classification GUID. The library provides well-known constants for common products and classifications:
 
 ```csharp
-using UpdateLib.Classifications;
+using MUCatalogSharp.Classifications;
 
 var updates = await UpdateRetriever.GetUpdatesAsync(
     progress,
@@ -80,14 +80,14 @@ var updates = await UpdateRetriever.GetUpdatesAsync(
 
 foreach (var update in updates)
 {
-    if (update is UpdateLib.Models.Update softwareUpdate)
+    if (update is MUCatalogSharp.Models.Update softwareUpdate)
     {
         Console.WriteLine($"Update: {softwareUpdate.Title}");
         Console.WriteLine($"  KB Article: {softwareUpdate.KBArticleId}");
         Console.WriteLine($"  Severity: {softwareUpdate.Severity}");
         Console.WriteLine($"  Support URL: {softwareUpdate.SupportUrl}");
     }
-    else if (update is UpdateLib.Models.Driver driver)
+    else if (update is MUCatalogSharp.Models.Driver driver)
     {
         Console.WriteLine($"Driver: {driver.Title}");
         Console.WriteLine($"  Provider: {driver.DriverProvider}");
@@ -120,7 +120,7 @@ Available well-known classifications include:
 **Important:** Drivers have separate product identifiers. To retrieve driver updates, you must use the driver-specific product (e.g., `WellKnownProduct.Windows11Drivers`) along with the `WellKnownClassification.Drivers` classification:
 
 ```csharp
-using UpdateLib.Classifications;
+using MUCatalogSharp.Classifications;
 
 // Correct way to retrieve driver updates for Windows 11
 var driverUpdates = await UpdateRetriever.GetUpdatesAsync(
@@ -130,7 +130,7 @@ var driverUpdates = await UpdateRetriever.GetUpdatesAsync(
 
 foreach (var update in driverUpdates)
 {
-    if (update is UpdateLib.Models.Driver driver)
+    if (update is MUCatalogSharp.Models.Driver driver)
     {
         Console.WriteLine($"Driver: {driver.Title}");
         Console.WriteLine($"  Provider: {driver.DriverProvider}");
@@ -147,7 +147,7 @@ foreach (var update in driverUpdates)
 Each update contains information about its associated files:
 
 ```csharp
-using UpdateLib.Classifications;
+using MUCatalogSharp.Classifications;
 
 var updates = await UpdateRetriever.GetUpdatesAsync(
     progress,
@@ -156,7 +156,7 @@ var updates = await UpdateRetriever.GetUpdatesAsync(
 
 foreach (var update in updates)
 {
-    if (update is UpdateLib.Models.Update softwareUpdate)
+    if (update is MUCatalogSharp.Models.Update softwareUpdate)
     {
         Console.WriteLine($"\nUpdate: {softwareUpdate.Title}");
         Console.WriteLine("Files:");
@@ -198,16 +198,16 @@ catch (OperationCanceledException)
 
 ## Example Application
 
-The solution includes a complete example application (`UpdateLib.Example`) that demonstrates how to use the library with a command-line interface. The example uses Spectre.Console for rich terminal output.
+The solution includes a complete example application (`MUCatalogSharp.Example`) that demonstrates how to use the library with a command-line interface. The example uses Spectre.Console for rich terminal output.
 
 To run the example:
 
 ```bash
 # List all categories
-dotnet run --project UpdateLib.Example category
+dotnet run --project MUCatalogSharp.Example category
 
 # Get updates for a specific product and classification
-dotnet run --project UpdateLib.Example update <PRODUCT_GUID> <CLASSIFICATION_GUID>
+dotnet run --project MUCatalogSharp.Example update <PRODUCT_GUID> <CLASSIFICATION_GUID>
 ```
 
 ## Models
