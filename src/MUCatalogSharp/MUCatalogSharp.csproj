@@ -11,6 +11,7 @@
     <PropertyGroup>
         <PackageId>MUCatalogSharp</PackageId>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <Version>0.1.0</Version>
         <Description>
 			A client for interacting with WSUS and Microsoft Update services, providing functionality to query and manage updates, packages, and related metadata.
@@ -26,6 +27,7 @@
     <ProjectReference Include="..\microsoft-update-upstream-package-source\MicrosoftUpdateClient.csproj" />
     <ProjectReference Include="..\microsoft-update-webservices\MicrosoftUpdateConnectedService.csproj" />
 	<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	<None Include="..\..\LICENSE.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
