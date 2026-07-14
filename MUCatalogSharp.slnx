@@ -1,0 +1,29 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="APIRelease" />
+    <BuildType Name="Debug" />
+    <BuildType Name="FunctionRelease" />
+    <BuildType Name="Release" />
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="src/microsoft-update-partition/microsoft-update-partition.csproj">
+    <Build Solution="APIRelease|Any CPU" Project="false" />
+  </Project>
+  <Project Path="src/microsoft-update-upstream-package-source/microsoft-update-upstream-source.csproj">
+    <Build Solution="APIRelease|Any CPU" Project="false" />
+  </Project>
+  <Project Path="src/microsoft-update-webservices/microsoft-update-webservices.csproj">
+    <Build Solution="APIRelease|Any CPU" Project="false" />
+  </Project>
+  <Project Path="src/MUCatalogSharp.Example/MUCatalogSharp.Example.csproj">
+    <BuildType Solution="APIRelease|*" Project="Debug" />
+    <BuildType Solution="FunctionRelease|*" Project="Debug" />
+  </Project>
+  <Project Path="src/MUCatalogSharp/MUCatalogSharp.csproj" />
+  <Project Path="test/MUCatalogSharp.Tests/MUCatalogSharp.Tests.csproj">
+    <BuildType Solution="APIRelease|Any CPU" Project="Release" />
+    <BuildType Solution="FunctionRelease|Any CPU" Project="Release" />
+  </Project>
+</Solution>
