@@ -6,10 +6,16 @@
     <Nullable>enable</Nullable>
     <Configurations>Debug;Release;FunctionRelease;APIRelease</Configurations>
   </PropertyGroup>
+	
+    <PropertyGroup>
+        <PackageId>MUCatalogSharp</PackageId>
+        <Version>0.1.0</Version>
+        <Description>
+			A client for interacting with WSUS and Microsoft Update services, providing functionality to query and manage updates, packages, and related metadata.
+		</Description>
+    </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.9" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="10.0.9" />
     <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.9" />
   </ItemGroup>
 
