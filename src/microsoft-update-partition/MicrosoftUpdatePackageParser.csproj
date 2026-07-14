@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\microsoft-update-webservices\microsoft-update-webservices.csproj" />
+    <ProjectReference Include="..\microsoft-update-webservices\MicrosoftUpdateConnectedService.csproj" />
   </ItemGroup>
 
   <ItemGroup>
