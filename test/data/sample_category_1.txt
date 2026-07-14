@@ -1,0 +1,36 @@
+<upd:Update xmlns:pub="http://schemas.microsoft.com/msus/2002/12/Publishing" xmlns:lar="http://schemas.microsoft.com/msus/2002/12/LogicalApplicabilityRules" xmlns:cat="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/Category" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update">
+  <upd:UpdateIdentity UpdateID="83a83e29-7d55-44a0-afed-aea164bc35e6" RevisionNumber="51" />
+  <upd:Properties DefaultPropertiesLanguage="en" UpdateType="Category" ExplicitlyDeployable="false" IsPublic="false" Handler="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/Category" PublicationState="Published" CreationDate="2005-05-31T17:36:29.940Z" PublisherID="df1d1c6e-04c7-4008-8ef0-68425f93d12a"></upd:Properties>
+  <upd:LocalizedPropertiesCollection>
+    <upd:LocalizedProperties>
+      <upd:Language>en</upd:Language>
+      <upd:Title>Exchange 2000 Server</upd:Title>
+      <upd:Description>For Exchange 2000 Products</upd:Description>
+    </upd:LocalizedProperties>
+  </upd:LocalizedPropertiesCollection>
+  <upd:Relationships>
+    <upd:Prerequisites>
+      <upd:AtLeastOne IsCategory="true">
+        <upd:UpdateIdentity UpdateID="352f9494-d516-4b40-a21a-cd2416098982" />
+      </upd:AtLeastOne>
+    </upd:Prerequisites>
+  </upd:Relationships>
+  <upd:ApplicabilityRules>
+    <upd:IsInstalled>
+      <lar:Or xmlns:lar="http://schemas.microsoft.com/msus/2002/12/LogicalApplicabilityRules">
+        <lar:And>
+          <bar:RegDword Key="HKEY_LOCAL_MACHINE" Subkey="software\microsoft\exchange\setup" Value="NewestBuild" Comparison="GreaterThanOrEqualTo" Data="4417" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" />
+          <bar:RegDword Key="HKEY_LOCAL_MACHINE" Subkey="software\microsoft\exchange\setup" Value="NewestBuild" Comparison="LessThanOrEqualTo" Data="4629" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" />
+        </lar:And>
+        <lar:And>
+          <bar:RegDword Key="HKEY_LOCAL_MACHINE" Subkey="SOFTWARE\Microsoft\ADCSetup" Value="NewestSetupBld" Comparison="GreaterThanOrEqualTo" Data="4417" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" />
+          <bar:RegDword Key="HKEY_LOCAL_MACHINE" Subkey="SOFTWARE\Microsoft\ADCSetup" Value="NewestSetupBld" Comparison="LessThanOrEqualTo" Data="6249" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" />
+        </lar:And>
+        <bar:RegKeyExists Key="HKEY_LOCAL_MACHINE" Subkey="software\microsoft\exchange conferencing" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" />
+      </lar:Or>
+    </upd:IsInstalled>
+  </upd:ApplicabilityRules>
+  <upd:HandlerSpecificData xsi:type="cat:Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pub="http://schemas.microsoft.com/msus/2002/12/Publishing">
+    <cat:CategoryInformation CategoryType="Product" ProhibitsSubcategories="true" xmlns:cat="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/Category" />
+  </upd:HandlerSpecificData>
+</upd:Update>

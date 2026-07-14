@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UpdateLib.Example": {
+      "commandName": "Project",
+      "commandLineArgs": "update 72e7624a-5b00-45d2-b92f-e561c0a6a160 0fa1201d-4330-4fa8-8ae9-b877473b6441"
+    }
+  }
+}

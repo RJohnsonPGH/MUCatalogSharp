@@ -1,0 +1,131 @@
+<upd:Update xmlns:pub="http://schemas.microsoft.com/msus/2002/12/Publishing" xmlns:drv="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsDriver" xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update">
+  <upd:UpdateIdentity UpdateID="9089c22f-99c1-4ef7-8c20-be8895d5a38d" RevisionNumber="200" />
+  <upd:Properties UpdateType="Driver" DefaultPropertiesLanguage="en" AutoSelectOnWebSites="true" Handler="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsDriver" ExplicitlyDeployable="true" MaxDownloadSize="531141" MinDownloadSize="0" PublicationState="Published" CreationDate="2022-06-14T14:20:24.079Z" PublisherID="fa34d14e-27d3-42c2-bc5f-070f466300d1">
+    <upd:InstallationBehavior Impact="Normal" RebootBehavior="CanRequestReboot" RequiresNetworkConnectivity="false" CanRequestUserInput="false" />
+    <upd:SupportUrl>http://support.microsoft.com/select/?target=hub</upd:SupportUrl>
+    <upd:Language>ar</upd:Language>
+    <upd:Language>pt-br</upd:Language>
+    <upd:Language>bg</upd:Language>
+    <upd:Language>zh-hk</upd:Language>
+    <upd:Language>zh-cn</upd:Language>
+    <upd:Language>zh-tw</upd:Language>
+    <upd:Language>hr</upd:Language>
+    <upd:Language>cs</upd:Language>
+    <upd:Language>da</upd:Language>
+    <upd:Language>nl</upd:Language>
+    <upd:Language>en</upd:Language>
+    <upd:Language>et</upd:Language>
+    <upd:Language>fi</upd:Language>
+    <upd:Language>fr</upd:Language>
+    <upd:Language>de</upd:Language>
+    <upd:Language>el</upd:Language>
+    <upd:Language>he</upd:Language>
+    <upd:Language>hu</upd:Language>
+    <upd:Language>it</upd:Language>
+    <upd:Language>ja</upd:Language>
+    <upd:Language>ko</upd:Language>
+    <upd:Language>lv</upd:Language>
+    <upd:Language>lt</upd:Language>
+    <upd:Language>no</upd:Language>
+    <upd:Language>pl</upd:Language>
+    <upd:Language>pt</upd:Language>
+    <upd:Language>ro</upd:Language>
+    <upd:Language>ru</upd:Language>
+    <upd:Language>sr</upd:Language>
+    <upd:Language>sk</upd:Language>
+    <upd:Language>sl</upd:Language>
+    <upd:Language>es</upd:Language>
+    <upd:Language>sv</upd:Language>
+    <upd:Language>th</upd:Language>
+    <upd:Language>tr</upd:Language>
+    <upd:Language>uk</upd:Language>
+  </upd:Properties>
+  <upd:LocalizedPropertiesCollection>
+    <upd:LocalizedProperties>
+      <upd:Language>en</upd:Language>
+      <upd:Title>Intel Corporation - Bluetooth - 22.150.0.6</upd:Title>
+      <upd:Description>Intel Corporation Bluetooth  driver update released in  May 2022</upd:Description>
+      <upd:MoreInfoUrl>http://sysdev.microsoft.com/support/default.aspx</upd:MoreInfoUrl>
+    </upd:LocalizedProperties>
+  </upd:LocalizedPropertiesCollection>
+  <upd:Relationships>
+    <upd:Prerequisites>
+      <upd:AtLeastOne>
+        <upd:UpdateIdentity UpdateID="61dd6f14-5433-4d46-9ca1-b6a1f2aa341d" />
+        <upd:UpdateIdentity UpdateID="f49e86fe-c3b6-4abb-82a8-1d918e885d55" />
+        <upd:UpdateIdentity UpdateID="a57a35ae-cf46-4e2a-94d7-f1c07891d72d" />
+        <upd:UpdateIdentity UpdateID="57ce22da-5641-4f4e-a8de-9e876bf7cd08" />
+        <upd:UpdateIdentity UpdateID="30b6a809-9ba3-4c0f-9ca3-f569d01dab11" />
+        <upd:UpdateIdentity UpdateID="7f38e252-29bc-42db-9dad-5377d2fe8703" />
+        <upd:UpdateIdentity UpdateID="6810bd83-4556-440e-aef2-ee04fe20d10f" />
+        <upd:UpdateIdentity UpdateID="f917e2ad-3781-4312-ba17-b0966bd80533" />
+        <upd:UpdateIdentity UpdateID="8ddbd40f-b0bb-4511-954e-575ea48dfea8" />
+        <upd:UpdateIdentity UpdateID="e0823a95-2884-43e8-bddc-a19eac2e516c" />
+        <upd:UpdateIdentity UpdateID="2bf7ed9c-6f43-493a-b156-db20f08c44c4" />
+        <upd:UpdateIdentity UpdateID="df5a50f8-ea23-439a-8498-4d1ccce1fe8f" />
+        <upd:UpdateIdentity UpdateID="cca37ce0-6151-428e-9aa8-006ff23c2b8d" />
+        <upd:UpdateIdentity UpdateID="5be762cc-de5d-430a-99fd-d67fb1d227c6" />
+        <upd:UpdateIdentity UpdateID="2db5dd9f-33ad-4ad7-a79f-c271a7f3e1eb" />
+        <upd:UpdateIdentity UpdateID="8eb8b3af-c51f-4759-8347-46daa955ff08" />
+        <upd:UpdateIdentity UpdateID="f9a9479c-1e0d-40ad-bb88-537ba6eef7bb" />
+        <upd:UpdateIdentity UpdateID="be2915a8-6ad0-4da1-a8bd-f26e8f71922b" />
+        <upd:UpdateIdentity UpdateID="c31c34cf-df02-4b8e-b88d-a76ca2e2aebb" />
+        <upd:UpdateIdentity UpdateID="40ec40d6-6513-45b8-ae3d-6ced21a8f8b4" />
+        <upd:UpdateIdentity UpdateID="e61b7af4-8df2-460d-b470-c91a469ccff9" />
+        <upd:UpdateIdentity UpdateID="f50f2841-b72a-428c-ae53-c6257a03322c" />
+        <upd:UpdateIdentity UpdateID="aaaa8c7f-d663-479f-a9d4-0d8428c18147" />
+        <upd:UpdateIdentity UpdateID="16f8bc41-69d2-402d-95b2-9a4b0e5d1d76" />
+        <upd:UpdateIdentity UpdateID="362b580c-ef1b-44ed-9ba4-a5d5440ad788" />
+        <upd:UpdateIdentity UpdateID="42aad4f1-57a8-4965-b34b-b5664922c9be" />
+        <upd:UpdateIdentity UpdateID="44b492c6-b4ed-425d-a08c-d8bbdfe8bc87" />
+        <upd:UpdateIdentity UpdateID="ab3a323b-e337-4c8d-a860-86625b8b84c1" />
+        <upd:UpdateIdentity UpdateID="66797671-7c0a-4d0b-bc39-424629bda663" />
+        <upd:UpdateIdentity UpdateID="1cba9879-b6e5-4a90-90cc-a1fc4d84f1c5" />
+        <upd:UpdateIdentity UpdateID="f952f20b-0058-45f7-bd57-cb5d79cb42f6" />
+        <upd:UpdateIdentity UpdateID="076f2a77-facb-49ce-9b9c-21dffaa3d2e1" />
+        <upd:UpdateIdentity UpdateID="b6558568-5399-41c5-8804-6cef3d27a238" />
+        <upd:UpdateIdentity UpdateID="785c3360-e86b-405d-a99d-6ff7d2fcb35f" />
+        <upd:UpdateIdentity UpdateID="26427c31-6632-49d9-b7c6-a91b5a65ed2c" />
+        <upd:UpdateIdentity UpdateID="1c82696e-81ef-439f-89f4-8ca06d856c74" />
+      </upd:AtLeastOne>
+      <upd:UpdateIdentity UpdateID="59653007-e2e9-4f71-8525-2ff588527978" />
+      <upd:UpdateIdentity UpdateID="9f4f44d8-bfec-48c6-a02c-2d9ea220f6e2" />
+      <upd:UpdateIdentity UpdateID="329f1e4b-d2e0-4b2b-bb97-e679609a7be6" />
+      <upd:AtLeastOne IsCategory="true">
+        <upd:UpdateIdentity UpdateID="ebfc1fc5-71a4-4f7b-9aca-3b9a503104a0" />
+      </upd:AtLeastOne>
+      <upd:AtLeastOne IsCategory="true">
+        <upd:UpdateIdentity UpdateID="7dd9959a-e808-477a-ab89-b2e3d3ed1f65" />
+        <upd:UpdateIdentity UpdateID="bfeb1830-4b34-40d0-a2d7-8d6f994ddb58" />
+        <upd:UpdateIdentity UpdateID="8c96b6ab-0271-430e-ac76-0d8b771952dd" />
+        <upd:UpdateIdentity UpdateID="b11fe74f-46dc-4cd9-82db-76fd4b8956a0" />
+      </upd:AtLeastOne>
+    </upd:Prerequisites>
+  </upd:Relationships>
+  <upd:ApplicabilityRules>
+    <upd:IsInstalled>
+      <drv:WindowsDriverInstalled xmlns:drv="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsDriver" />
+    </upd:IsInstalled>
+    <upd:IsSuperseded>
+      <drv:WindowsDriverSuperseded xmlns:drv="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsDriver" />
+    </upd:IsSuperseded>
+    <upd:IsInstallable>
+      <drv:WindowsDriverInstallable xmlns:drv="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsDriver" />
+    </upd:IsInstallable>
+    <upd:Metadata>
+      <drv:WindowsDriverMetaData HardwareID="USB\VID_8087&amp;PID_0A2B&amp;REV_0010" DriverVerDate="2022-05-30" DriverVerVersion="22.150.0.6" WhqlDriverID="0" Class="Other Hardware" Company="Intel Corporation" Provider="Intel Corporation" Manufacturer="Intel Corporation" Model="Intel(R) Wireless Bluetooth(R)" xmlns:drv="http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsDriver">
+        <drv:FeatureScore FeatureScore="FF" OperatingSystem="amd64.10.0" />
+        <drv:DistributionComputerHardwareId>3962b55f-f768-58cb-9ca2-b5d61a1fdbae</drv:DistributionComputerHardwareId>
+        <drv:DistributionComputerHardwareId>3e4626d6-ac14-5658-8306-27a8761ca92c</drv:DistributionComputerHardwareId>
+        <drv:DistributionComputerHardwareId>32650cd2-2a71-53d5-b344-699e64484919</drv:DistributionComputerHardwareId>
+        <drv:DistributionComputerHardwareId>524f555f-ce80-575c-803d-8d74aeacb857</drv:DistributionComputerHardwareId>
+        <drv:DistributionComputerHardwareId>f860d14a-a4a9-5d3a-b60f-9796cc666200</drv:DistributionComputerHardwareId>
+      </drv:WindowsDriverMetaData>
+    </upd:Metadata>
+  </upd:ApplicabilityRules>
+  <upd:Files>
+    <upd:File Digest="mTQZsbAqDuTchNIJkUhQX3op3X4=" DigestAlgorithm="SHA1" FileName="10931cb1-d155-4e89-8878-e6193071edb3.cab" Size="531141" Modified="2022-06-14T14:20:15Z">
+      <upd:AdditionalDigest Algorithm="SHA256">wHzlAUgPsCnT+FZUdyB8a1oVicnO5zXVoXeebQMTras=</upd:AdditionalDigest>
+    </upd:File>
+  </upd:Files>
+</upd:Update>

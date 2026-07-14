@@ -1,0 +1,273 @@
+<upd:Update xmlns:pub="http://schemas.microsoft.com/msus/2002/12/Publishing" xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update">
+  <upd:UpdateIdentity UpdateID="7b6d13c6-6401-4a10-a61f-1dab8d93356e" RevisionNumber="200" />
+  <upd:Properties DefaultPropertiesLanguage="en" UpdateType="Software" ExplicitlyDeployable="true" AutoSelectOnWebSites="false" MsrcSeverity="Critical" IsPublic="false" IsBeta="false" PublicationState="Published" CreationDate="2022-05-10T17:00:06.000Z" PublisherID="395392a0-19c0-48b7-a927-f7c15066d905" LegacyName="KB5013943-WindowsSV21H2-RTM-UnifiedCumulativeSecurity-X64-TSL-World">
+    <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    <upd:KBArticleID>5013943</upd:KBArticleID>
+    <upd:Readiness Level="RTW" Date="2022-05-10T17:00:06+00:00" />
+  </upd:Properties>
+  <upd:LocalizedPropertiesCollection xmlns:pub="http://schemas.microsoft.com/msus/2002/12/Publishing">
+    <upd:LocalizedProperties>
+      <upd:Language>en</upd:Language>
+      <upd:Title>2022-05 Cumulative Update for Windows 11 for x64-based Systems (KB5013943)</upd:Title>
+      <upd:Description>Install this update to resolve issues in Windows. For a complete listing of the issues that are included in this update, see the associated Microsoft Knowledge Base article for more information. After you install this item, you may have to restart your computer.</upd:Description>
+      <upd:UninstallNotes>This software update can be removed by selecting View installed updates in the Programs and Features Control Panel.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>zh-hk</upd:Language>
+      <upd:Title>2022-05 適用於 x64 系統 Windows 11 的累積更新 (KB5013943)</upd:Title>
+      <upd:Description>安裝此更新可解決 Windows 中的問題。如需此更新包含的完整問題清單，請參閱關聯的 Microsoft 知識庫文章以取得詳細資訊。安裝此項目後，您必須重新啟動電腦。</upd:Description>
+      <upd:UninstallNotes>選取 [程式和功能] 控制台中的 [檢視安裝的更新]，可以移除這個軟體更新。</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>zh-cn</upd:Language>
+      <upd:Title>2022-适用于 Windows 11 的 05 累积更新，适合基于 x64 的系统 (KB5013943)</upd:Title>
+      <upd:Description>安装本更新程序可解决 Windows 中的问题。有关此更新程序中所含问题的完整列表，请参阅相关 Microsoft 知识库文章获取详细信息。安装本更新程序之后，可能必须重新启动计算机。</upd:Description>
+      <upd:UninstallNotes>可以通过在“程序和功能”控制面板中选择“查看已安装的更新”来删除本软件更新程序。</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>lt</upd:Language>
+      <upd:Title>2022-05 Kaupiamasis naujinimas, skirtas „Windows 11 for x64“ pagrindo sistemoms (KB5013943)</upd:Title>
+      <upd:Description>Įdiekite šį naujinimą, norėdami išspręsti „Windows“ problemas. Norėdami gauti išsamų šio naujinimo sprendžiamų problemų sąrašą, daugiau informacijos žr. susijusiame „Microsoft“ žinių bazės straipsnyje. Įdiegus šį elementą gali prireikti iš naujo paleisti kompiuterį.</upd:Description>
+      <upd:UninstallNotes>Šį programinės įrangos naujinimą galima pašalinti programų ir funkcijų valdymo skyde pažymėjus funkciją Rodyti įdiegtus naujinimus.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>lv</upd:Language>
+      <upd:Title>2022-05 Kumulatīvais atjauninājums operētājsistēmai Windows 11 x64 sistēmām (KB5013943)</upd:Title>
+      <upd:Description>Instalējiet šo atjauninājumu, lai novērstu problēmas sistēmā Windows. Lai iegūtu pilnu sarakstu ar problēmām, kas ir ietvertas šajā atjauninājumā, kā arī papildinformāciju, skatiet saistīto Microsoft zināšanu bāzes rakstu. Pēc šī vienuma instalēšanas jums, iespējams, būs jārestartē dators.</upd:Description>
+      <upd:UninstallNotes>Šo programmatūras atjauninājumu var noņemt, programmu un līdzekļu vadības panelī atlasot Skatīt instalētos atjauninājumus.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>et</upd:Language>
+      <upd:Title>2022-05 Opsüsteemi Windows 11 koondvärskendus x64-põhiste süsteemide jaoks (KB5013943)</upd:Title>
+      <upd:Description>Installige see värskendus Windowsi probleemide lahendamiseks. Lisateavet värskenduses oleva probleemide täieliku loendi kohta vaadake seonduvast Microsofti teabebaasi artiklist. Võimalik, et peate pärast selle üksuse installimist arvuti taaskäivitama.</upd:Description>
+      <upd:UninstallNotes>Selle tarkvaravärskenduse eemaldamiseks märkige juhtpaneeli kaustas Programmid ja funktsioonid (Programs and Features) ruut Kuva installitud värskendused (View installed updates).</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>sl</upd:Language>
+      <upd:Title>2022–05 Zbirna posodobitev za Windows 11 za x64 (KB5013943)</upd:Title>
+      <upd:Description>Namestite to posodobitev, da odpravite težave s sistemom Windows. Če želite popoln seznam težav, ki so vključene v to posodobitev, poiščite več informacij v povezanem članku v zbirki znanja. Po namestitvi posodobitve boste morda morali znova zagnati računalnik.</upd:Description>
+      <upd:UninstallNotes>To posodobitev programske opreme odstranite tako, da na nadzorni plošči v pogovornem oknu »Programs and Features« (Programi in funkcije) izberete »View installed updates« (Ogled nameščenih posodobitev).</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>uk</upd:Language>
+      <upd:Title>2022-05 Сукупне оновлення для ОС Windows 11 для систем на базі x64-процесорів (KB5013943)</upd:Title>
+      <upd:Description>Інсталюйте це оновлення, щоб усунути неполадки в роботі ОС Windows. Щоб переглянути повний перелік проблем, яких стосується це оновлення, і отримати додаткові відомості, див. відповідну статтю бази знань Майкрософт. Після інсталяції цього елемента, можливо, знадобиться перезавантажити комп’ютер.</upd:Description>
+      <upd:UninstallNotes>Це оновлення програмного забезпечення можна видалити, вибравши пункт "Перегляд інстальованих оновлень" у вікні "Програми та засоби" на панелі керування.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>tr</upd:Language>
+      <upd:Title>2022-x64 tabanlı Sistemler için Windows 11 05 Toplu Güncelleştirmesi (KB5013943)</upd:Title>
+      <upd:Description>Windows'daki sorunları gidermek için bu güncelleştirmeyi yükleyin. Bu güncelleştirmede giderilen sorunların tam listesi ve daha fazla bilgi için ilişkili Microsoft Bilgi Bankası makalesine bakın. Bu öğeyi yükledikten sonra bilgisayarınızı yeniden başlatmanız gerekebilir.</upd:Description>
+      <upd:UninstallNotes>Bu yazılım güncelleştirmesi Programlar ve Özellikler Denetim Masası'ndaki Yüklü güncelleştirmeleri görüntüle seçeneği işaretlenerek kaldırılabilir.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>th</upd:Language>
+      <upd:Title>2022-05 การอัปเดตสะสมสำหรับ Windows 11 สำหรับระบบที่รองรับ x64 (KB5013943)</upd:Title>
+      <upd:Description>ติดตั้งโปรแกรมปรับปรุงนี้เพื่อแก้ไขปัญหาใน Windows สำหรับรายการปัญหาทั้งหมดที่รวมอยู่ในโปรแกรมปรับปรุงนี้ ให้ดูบทความฐานความรู้ของ Microsoft ที่เกี่ยวข้องหากต้องการข้อมูลเพิ่มเติม หลังจากที่ติดตั้งโปรแกรมนี้ คุณอาจต้องเริ่มระบบของคอมพิวเตอร์ใหม่</upd:Description>
+      <upd:UninstallNotes>โปรแกรมปรับปรุงซอฟต์แวร์นี้สามารถเอาออกได้โดยเลือก 'ดูการปรับปรุงที่ติดตั้งไว้' ในแผงควบคุม 'โปรแกรมและคุณลักษณะ'</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>sk</upd:Language>
+      <upd:Title>2022-05 Kumulatívna aktualizácia pre Windows 11 pre systémy s procesorom typu x64 (KB5013943)</upd:Title>
+      <upd:Description>Inštaláciou tejto aktualizácie vyriešite problémy so systémom Windows. Ďalšie informácie a úplný zoznam riešení problémov, ktoré sú zahrnuté do tejto aktualizácie, nájdete v súvisiacom článku databázy Microsoft Knowledge Base. Po nainštalovaní tejto položky bude pravdepodobne potrebné reštartovať počítač.</upd:Description>
+      <upd:UninstallNotes>Túto aktualizáciu softvéru môžete odstrániť tak, že vyberiete položku Zobrazenie nainštalovaných aktualizácií v ovládacom paneli Programy a súčasti.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>ru</upd:Language>
+      <upd:Title>Накопительное обновление для Windows 11 для систем на базе процессоров x64, 2022 05 (KB5013943)</upd:Title>
+      <upd:Description>Установите это обновление, чтобы устранить проблемы в Windows. Полный список проблем, устраняемых этим обновлением, см. в соответствующей статье базы знаний Майкрософт. После установки этого обновления может потребоваться перезагрузить компьютер.</upd:Description>
+      <upd:UninstallNotes>Это обновление программного обеспечения можно удалить с помощью функции "Просмотр установленных обновлений" в разделе "Программы и компоненты" панели управления.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>ro</upd:Language>
+      <upd:Title>2022-05 Actualizare cumulativă pentru Windows 11 pentru sisteme bazate pe x64 (KB5013943)</upd:Title>
+      <upd:Description>Instalați această actualizare pentru a rezolva probleme din Windows. Pentru o listă completă a problemelor incluse în această actualizare, consultați articolul asociat din Baza de cunoștințe Microsoft pentru mai multe informații. După ce instalați acest element, este posibil să fie necesar să reporniți computerul.</upd:Description>
+      <upd:UninstallNotes>Această actualizare de software poate fi eliminată selectând Vizualizare actualizări instalate în panoul de control Programe şi caracteristici.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>pt-br</upd:Language>
+      <upd:Title>2022-05 Atualização Cumulativa do Windows 11 para sistemas operacionais baseados em x64 (KB5013943)</upd:Title>
+      <upd:Description>Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.</upd:Description>
+      <upd:UninstallNotes>Para remover esta atualização de software, selecione Exibir atualizações instaladas no Painel de Controle Programas e Recursos.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>pl</upd:Language>
+      <upd:Title>2022-05 Aktualizacja zbiorcza dla systemu Windows 11 dla systemów opartych na architekturze x64 (KB5013943)</upd:Title>
+      <upd:Description>Zainstalowanie tej aktualizacji umożliwia rozwiązanie problemów w systemie Windows. Aby uzyskać pełną listę problemów, które zostały uwzględnione w tej aktualizacji, należy zapoznać się z odpowiednim artykułem z bazy wiedzy Microsoft Knowledge Base w celu uzyskania dodatkowych informacji. Po zainstalowaniu tego elementu może być konieczne ponowne uruchomienie komputera.</upd:Description>
+      <upd:UninstallNotes>Tę aktualizację oprogramowania można usunąć, wybierając opcję Wyświetl zainstalowane aktualizacje w aplecie Programy i funkcje w Panelu sterowania.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>no</upd:Language>
+      <upd:Title>2022-05 Samlet oppdatering for Windows 11 for x64-baserte systemer (KB5013943)</upd:Title>
+      <upd:Description>Installer denne oppdateringen for å løse problemer i Windows. For en fullstendig liste over problemer som er inkludert i denne oppdateringen, se den tilknyttede Microsoft Knowledge Base-artikkelen for mer informasjon. Når du har installert dette elementet, kan det hende at du må starte datamaskinen på nytt.</upd:Description>
+      <upd:UninstallNotes>Denne programvareoppdateringen kan fjernes ved å velge Vis installerte oppdateringer i kontrollpanelet Programmer og funksjoner.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>nl</upd:Language>
+      <upd:Title>2022-05 Cumulatieve update voor op Windows 11 for x64 gebaseerde systemen (KB5013943)</upd:Title>
+      <upd:Description>Installeer deze update om problemen in Windows op te lossen. Zie voor een complete lijst met problemen die in deze update zijn opgenomen het bijbehorende Microsoft Knowledge Base-artikel voor meer informatie. Wanneer u deze update hebt geïnstalleerd, moet u de computer mogelijk opnieuw opstarten.</upd:Description>
+      <upd:UninstallNotes>Deze software kan worden verwijderd door Geïnstalleerde updates weergeven te selecteren in het Configuratiescherm van Programma's en onderdelen.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>ko</upd:Language>
+      <upd:Title>2022-05 x64 기반 시스템용 Windows 11에 대한 누적 업데이트(KB5013943)</upd:Title>
+      <upd:Description>이 업데이트를 설치하면 Windows에서 발생하는 문제를 해결할 수 있습니다. 이 업데이트에 포함된 전체 문제 목록에 대한 자세한 내용은 연결된 Microsoft 기술 자료 문서를 참조하십시오. 이 업데이트를 설치한 후 컴퓨터를 다시 시작해야 합니다.</upd:Description>
+      <upd:UninstallNotes>이 소프트웨어 업데이트는 프로그램 및 기능 제어판에서 설치된 업데이트 보기를 선택하여 제거할 수 있습니다.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>ja</upd:Language>
+      <upd:Title>2022-05 x64 ベース システム用 Windows 11 の累積更新プログラム (KB5013943)</upd:Title>
+      <upd:Description>この更新プログラムをインストールすると、Windows の問題が修正されます。この更新プログラムの対象となる問題の完全な一覧については、サポート技術情報を参照してください。インストール後には、コンピュータの再起動が必要になる場合があります。</upd:Description>
+      <upd:UninstallNotes>このソフトウェア更新プログラムを削除するには、コントロール パネルの [プログラムと機能] で [インストールされた更新プログラムを表示] をクリックします。</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>hu</upd:Language>
+      <upd:Title>2022-05 Összesítő frissítés Windows 11 x64-alapú rendszerekhez (KB5013943)</upd:Title>
+      <upd:Description>A frissítés telepítésével a Windows rendszerrel kapcsolatos problémák oldhatók meg. A frissítésben javított hibák teljes listáját a Microsoft Tudásbázis kapcsolódó cikke tartalmazza. A frissítés telepítése után szükség lehet a számítógép újraindítására.</upd:Description>
+      <upd:UninstallNotes>A szoftverfrissítés a Vezérlőpult Programok és szolgáltatások segédprogramjával, a Frissítések megjelenítése jelölőnégyzet bejelölése után távolítható el.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>he</upd:Language>
+      <upd:Title>2022-05 ‏‫עדכון מצטבר עבור מערכות המבוססות על Windows 11 עבור x64 (KB5013943)</upd:Title>
+      <upd:Description>התקן עדכון זה כדי לפתור בעיות ב- Windows. לקבלת פירוט מלא של הבעיות הכלולות בעדכון זה, עיין במאמר Knowledge Base המשויך אליו כדי לקבל מידע נוסף. לאחר התקנת פריט זה, ייתכן שיהיה עליך להפעיל מחדש את המחשב.</upd:Description>
+      <upd:UninstallNotes>ניתן להסיר עדכון תוכנה זה על-ידי בחירה באפשרות 'הצג עדכונים מותקנים' תחת 'תוכניות ותכונות' בלוח הבקרה.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>fr</upd:Language>
+      <upd:Title>2022-05 Mise à jour cumulative pour Windows 11 pour les systèmes x64 (KB5013943)</upd:Title>
+      <upd:Description>Installez cette mise à jour pour résoudre des problèmes dans Windows. Pour consulter la liste complète des problèmes résolus par cette mise à jour, reportez-vous à l'article correspondant de la Base de connaissances Microsoft. Une fois cette installation terminée, vous serez peut-être amené à redémarrer l'ordinateur.</upd:Description>
+      <upd:UninstallNotes>Cette mise à jour logicielle peut être supprimée si vous sélectionnez Afficher les mises à jour installées dans le Panneau de configuration Programmes et fonctionnalités.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>fi</upd:Language>
+      <upd:Title>2022-05 Kumulatiivinen päivitys Windows 11 x64 -pohjaisille järjestelmille (KB5013943)</upd:Title>
+      <upd:Description>Asentamalla tämän päivityksen voit ratkaista Windowsin ongelmia. Täydellinen luettelo tämän päivityksen sisältämistä ongelmien korjauksista on liittyvässä Microsoft Knowledge Base -tietokannan artikkelissa. Kun olet asentanut tämän kohteen, tietokone on ehkä käynnistettävä uudelleen.</upd:Description>
+      <upd:UninstallNotes>Tämä ohjelmistopäivitys voidaan poistaa Ohjauspaneelin Ohjelmat ja toiminnot -työkalun Näytä asennetut päivitykset -vaihtoehdon avulla.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>el</upd:Language>
+      <upd:Title>2022-05 Συγκεντρωτική ενημέρωση για Windows 11 για συστήματα που βασίζονται σε x64 (KB5013943)</upd:Title>
+      <upd:Description>Εγκαταστήστε αυτήν την ενημέρωση για την επίλυση ζητημάτων στα Windows. Για μια πλήρη λίστα των ζητημάτων που περιλαμβάνονται στη συγκεκριμένη ενημέρωση, ανατρέξτε στο σχετικό άρθρο Γνωσιακής βάσης της Microsoft για περισσότερες πληροφορίες. Μετά την εγκατάσταση αυτού του στοιχείου, ίσως χρειαστεί να κάνετε επανεκκίνηση του υπολογιστή σας.</upd:Description>
+      <upd:UninstallNotes>Μπορείτε να καταργήσετε αυτήν την ενημέρωση λογισμικού επιλέγοντας "Προβολή εγκατεστημένων ενημερώσεων" από τα "Προγράμματα και δυνατότητες" του Πίνακα Ελέγχου.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>da</upd:Language>
+      <upd:Title>2022-05 Samlet opdatering til Windows 11 til x64-baserede systemer (KB5013943)</upd:Title>
+      <upd:Description>Installer denne opdatering for at løse problemer i Windows. Hvis du vil have vist en komplet liste over problemer, der er inkluderet i denne opdatering, kan du se den tilknyttede artikel fra Microsoft Knowledge Base for at få flere oplysninger. Når du har installeret elementet, skal du muligvis genstarte computeren.</upd:Description>
+      <upd:UninstallNotes>Denne softwareopdatering kan fjernes ved at markere Vis installerede opdateringer i kontrolpanelet Programmer og funktioner.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>cs</upd:Language>
+      <upd:Title>2022-05 Kumulativní aktualizace pro Windows 11 pro systémy typu x64 (KB5013943)</upd:Title>
+      <upd:Description>Instalací této aktualizace vyřešíte problémy v systému Windows. Úplný seznam problémů řešených touto aktualizací naleznete v souvisejícím článku znalostní báze Microsoft Knowledge Base, který obsahuje další informace. Po dokončení instalace bude pravděpodobně třeba restartovat počítač.</upd:Description>
+      <upd:UninstallNotes>Tuto aktualizaci softwaru lze odebrat pomocí položky Zobrazit nainstalované aktualizace v ovládacím panelu Programy a funkce.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>zh-tw</upd:Language>
+      <upd:Title>2022-05 適用於 x64 系統 Windows 11 的累積更新 (KB5013943)</upd:Title>
+      <upd:Description>安裝此更新可解決 Windows 中的問題。如需此更新包含的完整問題清單，請參閱關聯的 Microsoft 知識庫文章以取得詳細資訊。安裝此項目後，您必須重新啟動電腦。</upd:Description>
+      <upd:UninstallNotes>選取 [程式和功能] 控制台中的 [檢視安裝的更新]，可以移除這個軟體更新。</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>bg</upd:Language>
+      <upd:Title>2022-05: кумулативна актуализация за Windows 11 за системи, базирани на x64 (KB5013943)</upd:Title>
+      <upd:Description>Инсталирайте тази актуализация, за да разрешите проблеми в Windows. За пълен списък на проблемите, включени в тази актуализация, вижте съответната статия от базата знания на Microsoft за повече информация. След като инсталирате този елемент, може да се наложи да рестартирате компютъра.</upd:Description>
+      <upd:UninstallNotes>Актуализацията на софтуера може да бъде отстранена, като изберете "Преглед на инсталирани актуализации" в раздел "Програми и компоненти" на контролния панел.</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+    <upd:LocalizedProperties>
+      <upd:Language>ar</upd:Language>
+      <upd:Title>2022-05 تحديث تراكمي لنظام التشغيل Windows 11 للأنظمة التي تستند إلى x64 (KB5013943)</upd:Title>
+      <upd:Description>قم بتثبيت هذا التحديث لحل مشكلات تظهر في Windows. للحصول على قائمة كاملة بالمشكلات المضمنة في هذا التحديث، راجع مقالة قاعدة معارف Microsoft ذات الصلة لمزيد من المعلومات. وبعد تثبيت هذا العنصر، قد يلزم إعادة تشغيل الكمبيوتر.</upd:Description>
+      <upd:UninstallNotes>يمكن إزالة تحديث البرنامج هذا عن طريق تحديد "عرض التحديثات المثبتة" في "البرامج والميزات" في "لوحة التحكم."</upd:UninstallNotes>
+      <upd:MoreInfoUrl>https://support.microsoft.com/help/5013943</upd:MoreInfoUrl>
+      <upd:SupportUrl>https://support.microsoft.com/help/5013943</upd:SupportUrl>
+    </upd:LocalizedProperties>
+  </upd:LocalizedPropertiesCollection>
+  <upd:Relationships>
+    <upd:SupersededUpdates>
+      <upd:UpdateIdentity UpdateID="8cf5c03f-1b45-4d8f-a6d6-9fc9a927f92a" />
+      <upd:UpdateIdentity UpdateID="e2ad983b-4ada-44ed-a1fd-748fbf935fb0" />
+      <upd:UpdateIdentity UpdateID="7cb352fb-1eb6-4d5b-ba0b-5c39d1abfbdd" />
+      <upd:UpdateIdentity UpdateID="3806f89b-e60e-4144-a1f7-9c8d67d1d84d" />
+      <upd:UpdateIdentity UpdateID="54daf15a-aa18-4880-b98a-535c513ea2e4" />
+      <upd:UpdateIdentity UpdateID="f7a60bf7-e59b-4d2c-92ba-5fe0af0e8ff7" />
+      <upd:UpdateIdentity UpdateID="b975b9b2-6309-438e-9e7c-a7f17bb73d9b" />
+      <upd:UpdateIdentity UpdateID="d657015b-8ec8-49ea-9802-6ba83ab978e2" />
+      <upd:UpdateIdentity UpdateID="4ecc60a2-2dd3-4673-8c07-b9922334f6d8" />
+      <upd:UpdateIdentity UpdateID="e5107e93-4dfd-4c25-af16-312e973d5dc7" />
+      <upd:UpdateIdentity UpdateID="962fde09-7703-4000-aade-bf210f5b53dc" />
+      <upd:UpdateIdentity UpdateID="d41e2f0f-8d87-4ce6-9e4c-248d568394d5" />
+      <upd:UpdateIdentity UpdateID="43d90892-e51c-40e8-a9df-6f81b8e87f64" />
+      <upd:UpdateIdentity UpdateID="7fed3ab5-0935-4202-872f-2ec135e935e9" />
+    </upd:SupersededUpdates>
+    <upd:Prerequisites>
+      <upd:UpdateIdentity UpdateID="c57b3cff-f20d-4841-9970-cfc10d156057" />
+      <upd:UpdateIdentity UpdateID="59653007-e2e9-4f71-8525-2ff588527978" />
+      <upd:AtLeastOne IsCategory="true">
+        <upd:UpdateIdentity UpdateID="0fa1201d-4330-4fa8-8ae9-b877473b6441" />
+      </upd:AtLeastOne>
+      <upd:AtLeastOne IsCategory="true">
+        <upd:UpdateIdentity UpdateID="72e7624a-5b00-45d2-b92f-e561c0a6a160" />
+      </upd:AtLeastOne>
+    </upd:Prerequisites>
+    <upd:BundledUpdates>
+      <upd:UpdateIdentity UpdateID="ad1a3f81-2318-4a4d-8a86-3915edc389ae" RevisionNumber="200" />
+    </upd:BundledUpdates>
+  </upd:Relationships>
+</upd:Update>

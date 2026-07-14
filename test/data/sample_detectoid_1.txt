@@ -1,0 +1,26 @@
+<upd:Update xmlns:pub="http://schemas.microsoft.com/msus/2002/12/Publishing" xmlns:lar="http://schemas.microsoft.com/msus/2002/12/LogicalApplicabilityRules" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update">
+  <upd:UpdateIdentity UpdateID="3a8f327a-48da-4804-817c-85a7159893ae" RevisionNumber="51" />
+  <upd:Properties DefaultPropertiesLanguage="en" UpdateType="Detectoid" ExplicitlyDeployable="false" IsPublic="false" DetectoidType="Application Locale" PublicationState="Published" CreationDate="2005-05-31T17:48:44.873Z" PublisherID="df1d1c6e-04c7-4008-8ef0-68425f93d12a"></upd:Properties>
+  <upd:LocalizedPropertiesCollection>
+    <upd:LocalizedProperties>
+      <upd:Language>en</upd:Language>
+      <upd:Title>Exchange Core CHS Lang</upd:Title>
+    </upd:LocalizedProperties>
+  </upd:LocalizedPropertiesCollection>
+  <upd:Relationships>
+    <upd:Prerequisites>
+      <upd:UpdateIdentity UpdateID="4d6255d2-e2e4-4a6f-b345-b82d153a2e6c" />
+    </upd:Prerequisites>
+  </upd:Relationships>
+  <upd:ApplicabilityRules>
+    <upd:IsInstalled>
+      <lar:And xmlns:lar="http://schemas.microsoft.com/msus/2002/12/LogicalApplicabilityRules">
+        <bar:RegDword Key="HKEY_LOCAL_MACHINE" Subkey="Software\Microsoft\Exchange\" Value="Server Language" Comparison="EqualTo" Data="2052" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" />
+        <lar:Or>
+          <bar:WindowsLanguage Language="zh-cn" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" />
+          <bar:WindowsLanguage Language="en" xmlns:bar="http://schemas.microsoft.com/msus/2002/12/BaseApplicabilityRules" />
+        </lar:Or>
+      </lar:And>
+    </upd:IsInstalled>
+  </upd:ApplicabilityRules>
+</upd:Update>

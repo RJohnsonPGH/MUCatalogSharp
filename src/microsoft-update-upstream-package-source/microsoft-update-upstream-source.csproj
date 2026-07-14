@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Microsoft.PackageGraph.MicrosoftUpdate.Source</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyName>package-graph-microsoftupdate-source</AssemblyName>
+    <PackageId>Microsoft.PackageGraph.MicrosoftUpdate.Sources</PackageId>
+    <Authors>Cristian Petruta</Authors>
+    <Company>Microsoft Corp.</Company>
+    <Description>Implements sources for the MicrosoftUpdate partition of a package graph. Provides an implementation of the server-server sync protocol between a client and an upstream Microsoft Update server.</Description>
+    <BaseOutputPath>..\..\out\microsoft-update-upstream-source</BaseOutputPath>
+    <FileVersion>3.0.0.0</FileVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <ProductVersion>3.0.0.0</ProductVersion>
+    <Configurations>Debug;Release;FunctionRelease;APIRelease</Configurations>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Query\**" />
+    <EmbeddedResource Remove="Query\**" />
+    <None Remove="Query\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.9" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\microsoft-update-partition\microsoft-update-partition.csproj" />
+    <ProjectReference Include="..\microsoft-update-webservices\microsoft-update-webservices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+</Project>
