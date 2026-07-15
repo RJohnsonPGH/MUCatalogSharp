@@ -1,10 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-using Microsoft.PackageGraph.MicrosoftUpdate.PackageGraph.ObjectModel;
-using System;
-
-namespace Microsoft.PackageGraph.MicrosoftUpdate;
+namespace MUCatalogSharp.Metadata;
 
 /// <summary>
 /// Represents the identity of a Microsoft Update package (update)

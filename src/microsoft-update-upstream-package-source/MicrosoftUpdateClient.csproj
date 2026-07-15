@@ -28,7 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\microsoft-update-partition\MicrosoftUpdatePackageParser.csproj" />
     <ProjectReference Include="..\microsoft-update-webservices\MicrosoftUpdateConnectedService.csproj" />
   </ItemGroup>
 

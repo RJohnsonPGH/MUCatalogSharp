@@ -1,7 +1,7 @@
-﻿using Microsoft.PackageGraph.MicrosoftUpdate.Metadata;
-using Microsoft.PackageGraph.MicrosoftUpdate.Source.Client;
-using Microsoft.PackageGraph.MicrosoftUpdate.Source.Sources;
-using MUCatalogSharp.Classifications;
+﻿using MUCatalogSharp.Classifications;
+using MUCatalogSharp.Client;
+using MUCatalogSharp.Metadata;
+using MUCatalogSharp.Sources;
 
 namespace MUCatalogSharp.Tests.Integration;
 

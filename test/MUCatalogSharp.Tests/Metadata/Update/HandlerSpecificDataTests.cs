@@ -1,6 +1,6 @@
-﻿using Microsoft.PackageGraph.MicrosoftUpdate.Metadata.Parsers;
-using Microsoft.PackageGraph.MicrosoftUpdate.Metadata.Update;
-using Microsoft.PackageGraph.MicrosoftUpdate.Metadata.Update.HandlerSpecificData;
+﻿using MUCatalogSharp.Metadata.Parsers;
+using MUCatalogSharp.Metadata.Update;
+using MUCatalogSharp.Metadata.Update.HandlerSpecificData;
 
 namespace MUCatalogSharp.Tests.Metadata.Update;
 

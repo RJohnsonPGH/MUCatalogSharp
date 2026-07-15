@@ -1,4 +1,5 @@
-﻿using Microsoft.PackageGraph.MicrosoftUpdate.Source.Sources;
+﻿using Microsoft.PackageGraph.MicrosoftUpdate.Metadata;
+using Microsoft.PackageGraph.MicrosoftUpdate.Source.Sources;
 using Microsoft.UpdateServices.WebServices.ServerSync;
 using System;
 using System.Collections.Generic;

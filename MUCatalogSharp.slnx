@@ -8,15 +8,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="src/microsoft-update-partition/MicrosoftUpdatePackageParser.csproj">
-    <Build Solution="APIRelease|Any CPU" Project="false" />
-  </Project>
-  <Project Path="src/microsoft-update-upstream-package-source/MicrosoftUpdateClient.csproj">
-    <Build Solution="APIRelease|Any CPU" Project="false" />
-  </Project>
-  <Project Path="src/microsoft-update-webservices/MicrosoftUpdateConnectedService.csproj">
-    <Build Solution="APIRelease|Any CPU" Project="false" />
-  </Project>
   <Project Path="src/MUCatalogSharp.Example/MUCatalogSharp.Example.csproj">
     <BuildType Solution="APIRelease|*" Project="Debug" />
     <BuildType Solution="FunctionRelease|*" Project="Debug" />

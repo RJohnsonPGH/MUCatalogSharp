@@ -1,9 +1,4 @@
-﻿using Microsoft.PackageGraph.MicrosoftUpdate.Metadata;
-using Microsoft.PackageGraph.MicrosoftUpdate.Source.Client;
-using Microsoft.PackageGraph.MicrosoftUpdate.Source.Sources;
-using System.Management;
-
-namespace MUCatalogSharp.Tests.Integration;
+﻿namespace MUCatalogSharp.Tests.Integration;
 
 public partial class UpstreamSourceTests
 {
