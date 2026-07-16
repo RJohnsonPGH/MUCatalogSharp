@@ -6,7 +6,10 @@ public class UpdateRelationshipsTests
 {
     [Theory]
     [ClassData(typeof(RelationshipTestData))]
-    public void GetUpdatePrerequisites_ShouldSucceed_ValidXML(string filePath, Guid[] supersededUpdateIds, Guid[] prerequisiteUpdateIds, Guid[] atLeastOnePrerequisiteIds, Guid[] bundledUpdateIds, int[] bundledUpdateRevisions)
+    public void GetUpdatePrerequisites_ShouldSucceed_ValidXML(string filePath, Guid[] supersededUpdateIds, 
+		Guid[] prerequisiteUpdateIds, Guid[] atLeastOnePrerequisiteIds, 
+		Guid[] bundledUpdateIds, int[] bundledUpdateRevisions, 
+		Guid[] atLeastOneBundledIds, int[] atLeastOneBundledRevisions)
     {
         // Arrange
         SampleUpdate.LoadSampleUpdateXml(filePath, out var navigator, out var manager);
@@ -67,10 +70,24 @@ public class UpdateRelationshipsTests
                 Assert.Equal(bundledUpdateRevisions[i], currentBundledUpdate.Revision);
             }
         }
+
+		// Bundled at least one
+		if (atLeastOneBundledIds.Length > 0)
+		{
+			Assert.NotNull(updateRelationships.BundledUpdates?.AtLeastOneBundled);
+			Assert.Equal(atLeastOneBundledIds.Length, updateRelationships.BundledUpdates.AtLeastOneBundled.Count);
+			for (var i = 0; i < updateRelationships.BundledUpdates.AtLeastOneBundled.Count; i++)
+			{
+				var currentAtLeastOneBundled = updateRelationships.BundledUpdates.AtLeastOneBundled[i];
+				Assert.Equal(atLeastOneBundledIds[i], currentAtLeastOneBundled.UpdateIdentities[0].Id);
+				Assert.Equal(atLeastOneBundledRevisions[i], currentAtLeastOneBundled.UpdateIdentities[0].Revision);
+			}
+		}
+
     }
 }
 
-public class RelationshipTestData : TheoryData<string, Guid[], Guid[], Guid[], Guid[], int[]>
+public class RelationshipTestData : TheoryData<string, Guid[], Guid[], Guid[], Guid[], int[], Guid[], int[]>
 {
 	public RelationshipTestData()
     {
@@ -83,6 +100,8 @@ public class RelationshipTestData : TheoryData<string, Guid[], Guid[], Guid[], G
 			[
 				new("72e7624a-5b00-45d2-b92f-e561c0a6a160"),
             ],
+			[],
+			[],
 			[],
 			[]
 		);
@@ -115,7 +134,9 @@ public class RelationshipTestData : TheoryData<string, Guid[], Guid[], Guid[], G
                 new("ad1a3f81-2318-4a4d-8a86-3915edc389ae")],
             [
                 200
-            ]
+            ],
+			[],
+			[]
         );
         Add(@"..\..\..\..\data\sample_update_3.txt",
 			[
@@ -195,14 +216,15 @@ public class RelationshipTestData : TheoryData<string, Guid[], Guid[], Guid[], G
 				new("88bee16b-4ff8-486e-8ff2-e7a148080ad3"),
 				new("90316cb0-9dfb-4e05-95df-3a29334d699f"),
 			],
+			[],
 			[
+				new("72e7624a-5b00-45d2-b92f-e561c0a6a160"),
+				new("0fa1201d-4330-4fa8-8ae9-b877473b6441"),
 				new("e5555fe7-924e-4ba0-9039-62ffcd16cf1a"),
 				new("03aa8476-15b7-4288-bf9b-286b31f99bd6")
 			],
-			[
-				new("72e7624a-5b00-45d2-b92f-e561c0a6a160"),
-				new("0fa1201d-4330-4fa8-8ae9-b877473b6441")
-			],
+			[],
+			[],
 			[
 				new("6609771a-1e19-4e99-bc29-38ef76331070")
 			],

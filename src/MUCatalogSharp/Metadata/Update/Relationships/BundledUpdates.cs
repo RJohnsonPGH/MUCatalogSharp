@@ -29,7 +29,7 @@ public record BundledUpdates(XPathNavigator Navigator, XmlNamespaceManager Manag
 		return GetEnumerator();
 	}
 
-	public IReadOnlyList<AtLeastOne> AtLeastOnePrerequisites => _atLeastOnePrerequisites.Value;
-	private readonly Lazy<IReadOnlyList<AtLeastOne>> _atLeastOnePrerequisites = new(() =>
+	public IReadOnlyList<AtLeastOne> AtLeastOneBundled => _atLeastOneBundled.Value;
+	private readonly Lazy<IReadOnlyList<AtLeastOne>> _atLeastOneBundled = new(() =>
 		UpdateParser.CreateCollection<AtLeastOne>(Navigator, Manager));
 }
