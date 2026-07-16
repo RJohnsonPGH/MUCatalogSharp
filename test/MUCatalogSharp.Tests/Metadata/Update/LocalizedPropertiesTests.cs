@@ -1,5 +1,5 @@
-﻿using Microsoft.PackageGraph.MicrosoftUpdate.Metadata.Parsers;
-using Microsoft.PackageGraph.MicrosoftUpdate.Metadata.Update;
+﻿using MUCatalogSharp.Metadata.Parsers;
+using MUCatalogSharp.Metadata.Update;
 
 namespace MUCatalogSharp.Tests.Metadata.Update;
 

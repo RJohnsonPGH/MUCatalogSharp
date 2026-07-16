@@ -1,4 +1,4 @@
-﻿using Microsoft.PackageGraph.MicrosoftUpdate.Metadata.Update;
+﻿using MUCatalogSharp.Metadata.Update;
 
 namespace MUCatalogSharp.Tests.Metadata.Update;
 

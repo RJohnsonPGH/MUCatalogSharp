@@ -18,14 +18,19 @@
 		</Description>
     </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.9" />
+	<ItemGroup>
+		<InternalsVisibleTo Include="MUCatalogSharp.Tests" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.10" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="6.0.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="10.0.652802" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="10.0.652802" />
+    <PackageReference Include="System.ServiceModel.Security" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\microsoft-update-partition\MicrosoftUpdatePackageParser.csproj" />
-    <ProjectReference Include="..\microsoft-update-upstream-package-source\MicrosoftUpdateClient.csproj" />
-    <ProjectReference Include="..\microsoft-update-webservices\MicrosoftUpdateConnectedService.csproj" />
 	<None Include="..\..\README.md" Pack="true" PackagePath="\" />
 	<None Include="..\..\LICENSE.md" Pack="true" PackagePath="\" />
   </ItemGroup>

@@ -1,11 +1,11 @@
-﻿using Microsoft.PackageGraph.MicrosoftUpdate.Metadata;
-using Microsoft.PackageGraph.MicrosoftUpdate.Metadata.Categories;
-using Microsoft.PackageGraph.MicrosoftUpdate.Metadata.Update;
-using Microsoft.PackageGraph.MicrosoftUpdate.Source.Client;
-using Microsoft.PackageGraph.MicrosoftUpdate.Source.Sources;
+﻿using MUCatalogSharp.Client;
 using MUCatalogSharp.Filters;
+using MUCatalogSharp.Metadata;
+using MUCatalogSharp.Metadata.Categories;
+using MUCatalogSharp.Metadata.Update;
 using MUCatalogSharp.Models;
 using MUCatalogSharp.Progress;
+using MUCatalogSharp.Sources;
 using System.Runtime.CompilerServices;
 
 namespace MUCatalogSharp;
