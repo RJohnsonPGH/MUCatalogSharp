@@ -12,7 +12,15 @@ public record UpdateRelationships(XPathNavigator Navigator, XmlNamespaceManager 
     static string ICreatable<UpdateRelationships>.XPathQuery => "upd:Relationships";
     static UpdateRelationships ICreatable<UpdateRelationships>.Create(XPathNavigator navigator, XmlNamespaceManager manager) => new(navigator, manager);
 
-    public UpdatePrerequisites Prerequisites { get; } = UpdateParser.Create<UpdatePrerequisites>(Navigator, Manager);
-    public SupersededUpdates? SupersededUpdates { get; } = UpdateParser.CreateOptional<SupersededUpdates>(Navigator, Manager);
-	public BundledUpdates? BundledUpdates { get; } = UpdateParser.CreateOptional<BundledUpdates>(Navigator, Manager);
+	public UpdatePrerequisites Prerequisites => _prerequisites.Value;
+	private readonly Lazy<UpdatePrerequisites> _prerequisites = new(() =>
+		UpdateParser.Create<UpdatePrerequisites>(Navigator, Manager));
+
+	public SupersededUpdates? SupersededUpdates => _supersededUpdates.Value;
+	private readonly Lazy<SupersededUpdates?> _supersededUpdates = new(() =>
+		UpdateParser.CreateOptional<SupersededUpdates>(Navigator, Manager));
+
+	public BundledUpdates? BundledUpdates => _bundledUpdates.Value;
+	private readonly Lazy<BundledUpdates?> _bundledUpdates = new(() =>
+		UpdateParser.CreateOptional<BundledUpdates>(Navigator, Manager));
 }

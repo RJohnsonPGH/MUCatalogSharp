@@ -1,5 +1,6 @@
 ﻿using MUCatalogSharp.Metadata.Parsers;
 using MUCatalogSharp.Metadata.Parsers.Interfaces;
+using MUCatalogSharp.Metadata.Update.Relationships.Prerequisites;
 using System.Collections;
 using System.Xml;
 using System.Xml.XPath;
@@ -27,4 +28,8 @@ public record BundledUpdates(XPathNavigator Navigator, XmlNamespaceManager Manag
 	{
 		return GetEnumerator();
 	}
+
+	public IReadOnlyList<AtLeastOne> AtLeastOnePrerequisites => _atLeastOnePrerequisites.Value;
+	private readonly Lazy<IReadOnlyList<AtLeastOne>> _atLeastOnePrerequisites = new(() =>
+		UpdateParser.CreateCollection<AtLeastOne>(Navigator, Manager));
 }
