@@ -72,17 +72,17 @@ public class UpdateCommand : AsyncCommand<UpdateCommand.Settings>
 			AnsiConsole.Clear();
 			AnsiConsole.MarkupLine($"[bold cyan]Select an update to view details[/] ([dim]Total: {updates.Count}[/])\n");
 
-			var orderedUpdates = updates.OrderBy(u => u switch
+			var orderedUpdates = updates.OrderByDescending(u => u switch
 			{
-				Models.Update software => software.Title,
-				Models.Driver driver => driver.Title,
-				_ => string.Empty
+				Update software => software.CreationDate,
+				Driver driver => driver.CreationDate,
+				_ => DateTime.MinValue
 			}).ToList();
 
 			var choices = orderedUpdates.Select(u => u switch
 			{
-				Models.Update software => $"[cyan]Software[/] - {software.Title.EscapeMarkup()}",
-				Models.Driver driver => $"[yellow]Driver[/] - {driver.Title.EscapeMarkup()}",
+				Update software => $"[cyan]Software[/] - {software.Title.EscapeMarkup()}",
+				Driver driver => $"[yellow]Driver[/] - {driver.Title.EscapeMarkup()}",
 				_ => "Unknown"
 			}).ToList();
 
