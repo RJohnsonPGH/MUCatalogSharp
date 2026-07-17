@@ -1,0 +1,368 @@
+<upd:Update xmlns:pub="http://schemas.microsoft.com/msus/2002/12/Publishing" xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update">
+	<upd:UpdateIdentity UpdateID="ea038468-1bdf-4862-bb27-99f17046d686" RevisionNumber="100" xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update" />
+	<upd:Properties UpdateType="Software" ProductName="Client.OS.RS2.AMD64" ReleaseVersion="10.0.26100.8246" ReleaseRevision="3" ExplicitlyDeployable="true" DefaultPropertiesLanguage="en" AutoSelectOnWebSites="true" BrowseOnly="false" PublicationState="Published" CreationDate="2026-04-14T17:00:00.000Z" PublisherID="395392a0-19c0-48b7-a927-f7c15066d905" LegacyName="UUPv1" MsrcSeverity="Critical" xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update">
+	  <upd:MoreInfoUrl>http://go.microsoft.com/fwlink/?LinkID=507415</upd:MoreInfoUrl>
+	  <upd:SupportUrl>http://go.microsoft.com/fwlink/?LinkId=507417</upd:SupportUrl>
+	  <upd:Language>all</upd:Language>
+	  <upd:KBArticleID>5083769</upd:KBArticleID>
+	</upd:Properties>
+	<upd:LocalizedPropertiesCollection xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update">
+	  <upd:LocalizedProperties>
+		<upd:Language>ar</upd:Language>
+		<upd:Title>2026-04 تحديث تراكمي لنظام التشغيل Windows 11 Version 24H2 للأنظمة التي تستند إلى x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>قم بتثبيت هذا التحديث لحل مشكلات تظهر في Windows. للحصول على قائمة كاملة بالمشكلات المضمنة في هذا التحديث، راجع مقالة قاعدة معارف Microsoft ذات الصلة لمزيد من المعلومات. وبعد تثبيت هذا العنصر، قد يلزم إعادة تشغيل الكمبيوتر.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>bg</upd:Language>
+		<upd:Title>2026-04: кумулативна актуализация за Windows 11 Version 24H2 за системи, базирани на x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Инсталирайте тази актуализация, за да разрешите проблеми в Windows. За пълен списък на проблемите, включени в тази актуализация, вижте съответната статия от базата знания на Microsoft за повече информация. След като инсталирате този елемент, може да се наложи да рестартирате компютъра.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>cs</upd:Language>
+		<upd:Title>2026-04 Kumulativní aktualizace pro Windows 11 Version 24H2 pro systémy typu x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Instalací této aktualizace vyřešíte problémy v systému Windows. Úplný seznam problémů řešených touto aktualizací naleznete v souvisejícím článku znalostní báze Microsoft Knowledge Base, který obsahuje další informace. Po dokončení instalace bude pravděpodobně třeba restartovat počítač.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>da</upd:Language>
+		<upd:Title>2026-04 Samlet opdatering til Windows 11 Version 24H2 til x64-baserede systemer (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Installer denne opdatering for at løse problemer i Windows. Hvis du vil have vist en komplet liste over problemer, der er inkluderet i denne opdatering, kan du se den tilknyttede artikel fra Microsoft Knowledge Base for at få flere oplysninger. Når du har installeret elementet, skal du muligvis genstarte computeren.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>de</upd:Language>
+		<upd:Title>2026-04 Kumulatives Update für Windows 11 Version 24H2 für x64-basierte Systeme (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Installieren Sie dieses Update, um Probleme in Windows zu beheben. Eine vollständige Liste der Problembehebungen in diesem Update finden Sie in dem entsprechenden Microsoft Knowledge Base-Artikel, der weitere Informationen bereitstellt. Nach der Installation dieser Komponente müssen Sie den Computer möglicherweise neu starten.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>el</upd:Language>
+		<upd:Title>2026-04 Συγκεντρωτική ενημέρωση για Windows 11 Version 24H2 για συστήματα που βασίζονται σε x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Εγκαταστήστε αυτήν την ενημέρωση για την επίλυση ζητημάτων στα Windows. Για μια πλήρη λίστα των ζητημάτων που περιλαμβάνονται στη συγκεκριμένη ενημέρωση, ανατρέξτε στο σχετικό άρθρο Γνωσιακής βάσης της Microsoft για περισσότερες πληροφορίες. Μετά την εγκατάσταση αυτού του στοιχείου, ίσως χρειαστεί να κάνετε επανεκκίνηση του υπολογιστή σας.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>en</upd:Language>
+		<upd:Title>2026-04 Cumulative Update for Windows 11 Version 24H2 for x64-based Systems (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Install this update to resolve issues in Windows. For a complete listing of the issues that are included in this update, see the associated Microsoft Knowledge Base article for more information. After you install this item, you may have to restart your computer.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>es</upd:Language>
+		<upd:Title>2026-04 Actualización acumulativa para Windows 11 Version 24H2 para sistemas basados en x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Instale esta actualización para resolver problemas en Windows. Para obtener una lista completa de los problemas incluidos en esta actualización, consulte el artículo de Microsoft Knowledge Base asociado para obtener más información. Después de instalarla, es posible que deba reiniciar el equipo.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>et</upd:Language>
+		<upd:Title>2026-04 Opsüsteemi Windows 11 Version 24H2 koondvärskendus x64-põhiste süsteemide jaoks (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Installige see värskendus Windowsi probleemide lahendamiseks. Lisateavet värskenduses oleva probleemide täieliku loendi kohta vaadake seonduvast Microsofti teabebaasi artiklist. Võimalik, et peate pärast selle üksuse installimist arvuti taaskäivitama.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>fi</upd:Language>
+		<upd:Title>2026-04 Kumulatiivinen päivitys Windows 11 Version 24H2 x64 -pohjaisille järjestelmille (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Asentamalla tämän päivityksen voit ratkaista Windowsin ongelmia. Täydellinen luettelo tämän päivityksen sisältämistä ongelmien korjauksista on liittyvässä Microsoft Knowledge Base -tietokannan artikkelissa. Kun olet asentanut tämän kohteen, tietokone on ehkä käynnistettävä uudelleen.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>fr</upd:Language>
+		<upd:Title>2026-04 Mise à jour cumulative pour Windows 11 Version 24H2 pour les systèmes x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Installez cette mise à jour pour résoudre des problèmes dans Windows. Pour consulter la liste complète des problèmes résolus par cette mise à jour, reportez-vous à l'article correspondant de la Base de connaissances Microsoft. Une fois cette installation terminée, vous serez peut-être amené à redémarrer l'ordinateur.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>he</upd:Language>
+		<upd:Title>2026-04 ‏‫עדכון מצטבר עבור מערכות המבוססות על Windows 11 Version 24H2 עבור x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>התקן עדכון זה כדי לפתור בעיות ב- Windows. לקבלת פירוט מלא של הבעיות הכלולות בעדכון זה, עיין במאמר Knowledge Base המשויך אליו כדי לקבל מידע נוסף. לאחר התקנת פריט זה, ייתכן שיהיה עליך להפעיל מחדש את המחשב.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>hi</upd:Language>
+		<upd:Title>2026-04 Cumulative Update for Windows 11 Version 24H2 for x64-based Systems (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Install this update to resolve issues in Windows. For a complete listing of the issues that are included in this update, see the associated Microsoft Knowledge Base article for more information. After you install this item, you may have to restart your computer.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>hr</upd:Language>
+		<upd:Title>2026-04 Kumulativno ažuriranje za Windows 11 Version 24H2 za sustave s arhitekturom x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Instalirajte ovo ažuriranje da biste riješili probleme u sustavu Windows. Da biste dobili dodatne informacije, potpuni popis problema obuhvaćenih ovim ažuriranjem potražite u pridruženom članku iz Microsoftove baze znanja. Možda ćete nakon instaliranja morati ponovo pokrenuti računalo.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>hu</upd:Language>
+		<upd:Title>2026-04 Összesítő frissítés Windows 11 Version 24H2 x64-alapú rendszerekhez (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>A frissítés telepítésével a Windows rendszerrel kapcsolatos problémák oldhatók meg. A frissítésben javított hibák teljes listáját a Microsoft Tudásbázis kapcsolódó cikke tartalmazza. A frissítés telepítése után szükség lehet a számítógép újraindítására.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>it</upd:Language>
+		<upd:Title>2026-04 Aggiornamento cumulativo per Windows 11 Version 24H2 per sistemi basati su x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Installare questo aggiornamento per risolvere problemi in Windows. Per un elenco completo dei problemi inclusi in questo aggiornamento, vedere l'articolo associato della Microsoft Knowledge Base per ulteriori informazioni. Al termine dell'installazione, potrebbe essere necessario riavviare il computer.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>ja</upd:Language>
+		<upd:Title>2026-04 x64 ベース システム用 Windows 11 Version 24H2 の累積更新プログラム (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>この更新プログラムをインストールすると、Windows の問題が修正されます。この更新プログラムの対象となる問題の完全な一覧については、サポート技術情報を参照してください。インストール後には、コンピュータの再起動が必要になる場合があります。</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>ko</upd:Language>
+		<upd:Title>2026-04 x64 기반 시스템용 Windows 11 Version 24H2에 대한 누적 업데이트(KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>이 업데이트를 설치하면 Windows에서 발생하는 문제를 해결할 수 있습니다. 이 업데이트에 포함된 전체 문제 목록에 대한 자세한 내용은 연결된 Microsoft 기술 자료 문서를 참조하십시오. 이 업데이트를 설치한 후 컴퓨터를 다시 시작해야 합니다.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>lt</upd:Language>
+		<upd:Title>2026-04 Kaupiamasis naujinimas, skirtas „Windows 11 Version 24H2 for x64“ pagrindo sistemoms (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Įdiekite šį naujinimą, norėdami išspręsti „Windows“ problemas. Norėdami gauti išsamų šio naujinimo sprendžiamų problemų sąrašą, daugiau informacijos žr. susijusiame „Microsoft“ žinių bazės straipsnyje. Įdiegus šį elementą gali prireikti iš naujo paleisti kompiuterį.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>lv</upd:Language>
+		<upd:Title>2026-04 Kumulatīvais atjauninājums operētājsistēmai Windows 11 Version 24H2 x64 sistēmām (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Instalējiet šo atjauninājumu, lai novērstu problēmas sistēmā Windows. Lai iegūtu pilnu sarakstu ar problēmām, kas ir ietvertas šajā atjauninājumā, kā arī papildinformāciju, skatiet saistīto Microsoft zināšanu bāzes rakstu. Pēc šī vienuma instalēšanas jums, iespējams, būs jārestartē dators.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>nl</upd:Language>
+		<upd:Title>2026-04 Cumulatieve update voor op Windows 11 Version 24H2 for x64 gebaseerde systemen (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Installeer deze update om problemen in Windows op te lossen. Zie voor een complete lijst met problemen die in deze update zijn opgenomen het bijbehorende Microsoft Knowledge Base-artikel voor meer informatie. Wanneer u deze update hebt geïnstalleerd, moet u de computer mogelijk opnieuw opstarten.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>no</upd:Language>
+		<upd:Title>2026-04 Samlet oppdatering for Windows 11 Version 24H2 for x64-baserte systemer (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Installer denne oppdateringen for å løse problemer i Windows. For en fullstendig liste over problemer som er inkludert i denne oppdateringen, se den tilknyttede Microsoft Knowledge Base-artikkelen for mer informasjon. Når du har installert dette elementet, kan det hende at du må starte datamaskinen på nytt.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>pl</upd:Language>
+		<upd:Title>2026-04 Aktualizacja zbiorcza dla systemu Windows 11 Version 24H2 dla systemów opartych na architekturze x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Zainstalowanie tej aktualizacji umożliwia rozwiązanie problemów w systemie Windows. Aby uzyskać pełną listę problemów, które zostały uwzględnione w tej aktualizacji, należy zapoznać się z odpowiednim artykułem z bazy wiedzy Microsoft Knowledge Base w celu uzyskania dodatkowych informacji. Po zainstalowaniu tego elementu może być konieczne ponowne uruchomienie komputera.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>pt-br</upd:Language>
+		<upd:Title>2026-04 Atualização Cumulativa do Windows 11 Version 24H2 para sistemas operacionais baseados em x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>pt</upd:Language>
+		<upd:Title>2026-04 Atualização Cumulativa para Windows 11 Version 24H2 para Sistemas baseados em x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Instale esta actualização para resolver problemas no Windows. Para obter uma listagem completa dos problemas incluídos nesta actualização, consulte o artigo relacionado da Base de Dados de Conhecimento Microsoft para mais informações. Após a instalação deste item, poderá ser necessário reiniciar o computador.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>ro</upd:Language>
+		<upd:Title>2026-04 Actualizare cumulativă pentru Windows 11 Version 24H2 pentru sisteme bazate pe x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Instalați această actualizare pentru a rezolva probleme din Windows. Pentru o listă completă a problemelor incluse în această actualizare, consultați articolul asociat din Baza de cunoștințe Microsoft pentru mai multe informații. După ce instalați acest element, este posibil să fie necesar să reporniți computerul.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>ru</upd:Language>
+		<upd:Title>Накопительное обновление для Windows 11 Version 24H2 для систем на базе процессоров x64, 2026 04 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Установите это обновление, чтобы устранить проблемы в Windows. Полный список проблем, устраняемых этим обновлением, см. в соответствующей статье базы знаний Майкрософт. После установки этого обновления может потребоваться перезагрузить компьютер.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>sk</upd:Language>
+		<upd:Title>2026-04 Kumulatívna aktualizácia pre Windows 11 Version 24H2 pre systémy s procesorom typu x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Inštaláciou tejto aktualizácie vyriešite problémy so systémom Windows. Ďalšie informácie a úplný zoznam riešení problémov, ktoré sú zahrnuté do tejto aktualizácie, nájdete v súvisiacom článku databázy Microsoft Knowledge Base. Po nainštalovaní tejto položky bude pravdepodobne potrebné reštartovať počítač.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>sl</upd:Language>
+		<upd:Title>2026–04 Zbirna posodobitev za Windows 11 Version 24H2 za x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Namestite to posodobitev, da odpravite težave s sistemom Windows. Če želite popoln seznam težav, ki so vključene v to posodobitev, poiščite več informacij v povezanem članku v zbirki znanja. Po namestitvi posodobitve boste morda morali znova zagnati računalnik.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>sr</upd:Language>
+		<upd:Title>2026-04 kumulativna ispravka za Windows 11 Version 24H2 za sisteme zasnovane na x64 procesorima (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Instalirajte ovu ispravku da biste rešili probleme u operativnom sistemu Windows. Više informacija i kompletan spisak problema uključenih u ovi ispravku potražite u povezanom članku Microsoft baze znanja. Kada instalirate ovu stavku, možda ćete morati ponovo da pokrenete računar.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>sv</upd:Language>
+		<upd:Title>2026-04, kumulativ uppdatering för Windows 11 Version 24H2 för x64-baserade system (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Installera den här uppdateringen för att lösa problem i Windows. En fullständig lista över de problem som åtgärdas i den här uppdateringen finns i den relaterade Microsoft Knowledge Base-artikeln. När du har installerat uppdateringen måste du kanske starta om datorn.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>th</upd:Language>
+		<upd:Title>2026-04 การอัปเดตสะสมสำหรับ Windows 11 Version 24H2 สำหรับระบบที่รองรับ x64 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>ติดตั้งโปรแกรมปรับปรุงนี้เพื่อแก้ไขปัญหาใน Windows สำหรับรายการปัญหาทั้งหมดที่รวมอยู่ในโปรแกรมปรับปรุงนี้ ให้ดูบทความฐานความรู้ของ Microsoft ที่เกี่ยวข้องหากต้องการข้อมูลเพิ่มเติม หลังจากที่ติดตั้งโปรแกรมนี้ คุณอาจต้องเริ่มระบบของคอมพิวเตอร์ใหม่</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>tr</upd:Language>
+		<upd:Title>2026-x64 tabanlı Sistemler için Windows 11 Version 24H2 04 Toplu Güncelleştirmesi (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Windows'daki sorunları gidermek için bu güncelleştirmeyi yükleyin. Bu güncelleştirmede giderilen sorunların tam listesi ve daha fazla bilgi için ilişkili Microsoft Bilgi Bankası makalesine bakın. Bu öğeyi yükledikten sonra bilgisayarınızı yeniden başlatmanız gerekebilir.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>uk</upd:Language>
+		<upd:Title>2026-04 Сукупне оновлення для ОС Windows 11 Version 24H2 для систем на базі x64-процесорів (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>Інсталюйте це оновлення, щоб усунути неполадки в роботі ОС Windows. Щоб переглянути повний перелік проблем, яких стосується це оновлення, і отримати додаткові відомості, див. відповідну статтю бази знань Майкрософт. Після інсталяції цього елемента, можливо, знадобиться перезавантажити комп’ютер.</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>zh-cn</upd:Language>
+		<upd:Title>2026-适用于 Windows 11 Version 24H2 的 04 累积更新，适合基于 x64 的系统 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>安装本更新程序可解决 Windows 中的问题。有关此更新程序中所含问题的完整列表，请参阅相关 Microsoft 知识库文章获取详细信息。安装本更新程序之后，可能必须重新启动计算机。</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>zh-hk</upd:Language>
+		<upd:Title>2026-04 適用於 x64 系統 Windows 11 Version 24H2 的累積更新 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>安裝此更新可解決 Windows 中的問題。如需此更新包含的完整問題清單，請參閱關聯的 Microsoft 知識庫文章以取得詳細資訊。安裝此項目後，您必須重新啟動電腦。</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	  <upd:LocalizedProperties>
+		<upd:Language>zh-tw</upd:Language>
+		<upd:Title>2026-04 適用於 x64 系統 Windows 11 Version 24H2 的累積更新 (KB5083769) (26100.8246)</upd:Title>
+		<upd:Description>安裝此更新可解決 Windows 中的問題。如需此更新包含的完整問題清單，請參閱關聯的 Microsoft 知識庫文章以取得詳細資訊。安裝此項目後，您必須重新啟動電腦。</upd:Description>
+		<upd:MoreInfoUrl>https://support.microsoft.com/help/5083769</upd:MoreInfoUrl>
+		<upd:SupportUrl>https://support.microsoft.com/help/5083769</upd:SupportUrl>
+	  </upd:LocalizedProperties>
+	</upd:LocalizedPropertiesCollection>
+	<upd:Relationships xmlns:upd="http://schemas.microsoft.com/msus/2002/12/Update">
+	  <upd:SupersededUpdates>
+		<upd:UpdateIdentity UpdateID="90a40dd7-a198-4c1a-8ed9-df0a229d8565" />
+		<upd:UpdateIdentity UpdateID="a3000c2f-dc56-4eb1-9ddb-3d36fe3baf41" />
+		<upd:UpdateIdentity UpdateID="d40c9962-f30e-42e6-be83-ad8b4dc04031" />
+		<upd:UpdateIdentity UpdateID="ef017f17-a0e4-43a2-b6ee-b1d501fbf282" />
+		<upd:UpdateIdentity UpdateID="00b3356d-e516-4890-b430-c786efe4a1b6" />
+		<upd:UpdateIdentity UpdateID="616dbd3b-2c81-4f4b-9f0b-944fe40d9a13" />
+		<upd:UpdateIdentity UpdateID="8cea1349-3ff8-4482-af64-9db80cb71ffb" />
+		<upd:UpdateIdentity UpdateID="02276e78-d310-4617-b4e0-39bb63fc7991" />
+		<upd:UpdateIdentity UpdateID="d24b928d-6733-4faf-a7cd-0b396664efda" />
+		<upd:UpdateIdentity UpdateID="e59933ce-6913-4beb-9563-15665679ec92" />
+		<upd:UpdateIdentity UpdateID="4e985229-0105-412d-b51f-375761b88d42" />
+		<upd:UpdateIdentity UpdateID="69b15496-b618-4036-99c2-142ebbf43191" />
+		<upd:UpdateIdentity UpdateID="31a79a9f-e8c1-42c1-b516-0d4de9011598" />
+		<upd:UpdateIdentity UpdateID="badfc4e8-0b2e-4bc0-9ece-ae076db7e80c" />
+		<upd:UpdateIdentity UpdateID="3d6862a8-c4e0-486a-bb4b-f8a62b2deb13" />
+		<upd:UpdateIdentity UpdateID="9b4997fe-eb30-46b5-b15d-24e1b084ad1f" />
+		<upd:UpdateIdentity UpdateID="1ec279ba-5910-4990-a198-788ad65e8fe9" />
+		<upd:UpdateIdentity UpdateID="6bb2269f-e455-4507-81ad-318643a97c5f" />
+		<upd:UpdateIdentity UpdateID="ad322d0e-cdf1-4cf5-8d30-1d1c24bf9430" />
+		<upd:UpdateIdentity UpdateID="12dd009e-8e58-469a-ba76-743e7ba68c61" />
+		<upd:UpdateIdentity UpdateID="e14b8468-d7c5-4858-9288-db31089a1ca7" />
+		<upd:UpdateIdentity UpdateID="25d351be-b4b1-45e0-b12f-3c113d25aaf5" />
+		<upd:UpdateIdentity UpdateID="3e99b948-dfab-473f-818f-664030c8103f" />
+		<upd:UpdateIdentity UpdateID="c8ba9be3-634b-4d85-8320-9a6850ef4439" />
+		<upd:UpdateIdentity UpdateID="a10de9b5-74d8-4c60-86ba-f64d3185c6e1" />
+		<upd:UpdateIdentity UpdateID="2609130a-fa7e-48b3-b60f-7d66b92ddefe" />
+		<upd:UpdateIdentity UpdateID="d6139262-889e-40e7-92e9-dc53dafd6dfb" />
+		<upd:UpdateIdentity UpdateID="a9754743-c096-42a7-ae27-abe75938faa5" />
+		<upd:UpdateIdentity UpdateID="1803e452-c199-4655-aaec-3d83cb71830b" />
+		<upd:UpdateIdentity UpdateID="aed7f6e7-01e6-4265-9b39-2a665bfbfe93" />
+		<upd:UpdateIdentity UpdateID="c8187267-a6f9-4b76-b6a3-a726eada437c" />
+		<upd:UpdateIdentity UpdateID="92061378-be93-4659-a72a-037225e6bb0f" />
+		<upd:UpdateIdentity UpdateID="7bb9caea-f866-4922-ac8f-1c2d9051f361" />
+		<upd:UpdateIdentity UpdateID="bb036652-09c0-490b-bee0-143c49d147a5" />
+		<upd:UpdateIdentity UpdateID="901e436e-3c6a-4542-96f2-e957e7c34ad7" />
+		<upd:UpdateIdentity UpdateID="363be3e9-2a1d-4c47-af2b-ae997c7863b8" />
+		<upd:UpdateIdentity UpdateID="73ed1a07-9926-4122-9ae0-6629e887596d" />
+		<upd:UpdateIdentity UpdateID="acea5abe-df36-4bd9-93f8-ecbb1fed182c" />
+		<upd:UpdateIdentity UpdateID="9164090f-5427-4cdb-b524-f10495a0249d" />
+		<upd:UpdateIdentity UpdateID="fbbaa0b2-083b-498d-9736-6d2f914f6b34" />
+		<upd:UpdateIdentity UpdateID="16261f61-fa2d-46a4-bc56-7452f02715f5" />
+		<upd:UpdateIdentity UpdateID="456629a7-57c2-41c7-a1f3-4e24b3851ebf" />
+		<upd:UpdateIdentity UpdateID="ee3d478c-76c1-47ed-9749-c2e814f16001" />
+		<upd:UpdateIdentity UpdateID="bd55cfbb-79df-4dfc-a8f7-2a25c74bf703" />
+		<upd:UpdateIdentity UpdateID="d11883f1-a0c9-4afc-b1bb-2f3d5bf28a7f" />
+		<upd:UpdateIdentity UpdateID="c969c652-75b3-4ea9-a314-c69ebb26483d" />
+		<upd:UpdateIdentity UpdateID="6a82df81-51b3-4ef8-9a99-fc3e85538aca" />
+		<upd:UpdateIdentity UpdateID="06b76d9b-402d-4b14-bb0e-ac7536c0b6ba" />
+		<upd:UpdateIdentity UpdateID="7fbb596d-bbc8-49e3-a0ed-ac185cf55ddb" />
+		<upd:UpdateIdentity UpdateID="c51d5da7-a3cf-4ec0-9568-341786e5f03d" />
+		<upd:UpdateIdentity UpdateID="dcb2f021-bbd9-4019-8bc3-c191984da63f" />
+		<upd:UpdateIdentity UpdateID="c1c2a099-be0e-411d-a390-1a35d61348e3" />
+		<upd:UpdateIdentity UpdateID="10b42b94-4b75-4bd4-aae1-326cd74ddcd0" />
+		<upd:UpdateIdentity UpdateID="e1ad697b-da5b-464f-93cf-567226606082" />
+		<upd:UpdateIdentity UpdateID="ba69c60d-35cb-417c-ae5a-cdc8af5ad2e0" />
+		<upd:UpdateIdentity UpdateID="9bf409eb-c9b9-4c10-997a-e9f6414cd94a" />
+		<upd:UpdateIdentity UpdateID="806457f6-4a6a-4ed3-af2a-35595960acfa" />
+		<upd:UpdateIdentity UpdateID="970507bd-0d5e-4270-9a6f-0aa226afa1b2" />
+		<upd:UpdateIdentity UpdateID="28bd461d-1140-4748-aa2e-0a03a6c4fc32" />
+		<upd:UpdateIdentity UpdateID="a1e7fb49-a9ba-4cde-bc83-a906725af529" />
+		<upd:UpdateIdentity UpdateID="012823a1-c6d1-4769-b7ea-c49fa226b316" />
+		<upd:UpdateIdentity UpdateID="d7d5c8fb-5c5e-4089-96ea-1d3ec2d76795" />
+		<upd:UpdateIdentity UpdateID="9dcced7b-ed4d-49c3-b26e-65363adc4670" />
+		<upd:UpdateIdentity UpdateID="1248d549-d317-493f-a1db-f79fc8c0db48" />
+		<upd:UpdateIdentity UpdateID="ae236bdb-8a3f-4a6a-b0dd-5c0b085bcd66" />
+		<upd:UpdateIdentity UpdateID="1423492c-fbbb-4652-a5ac-01cfe0e757b6" />
+		<upd:UpdateIdentity UpdateID="e327d2fc-31d7-459f-8950-cca4c97566c4" />
+		<upd:UpdateIdentity UpdateID="7e6cc676-cc0c-4373-b32c-cec2f5b1f285" />
+		<upd:UpdateIdentity UpdateID="c19769c6-d589-4dac-a798-977e5e97fd57" />
+		<upd:UpdateIdentity UpdateID="0c012f79-aa29-4982-aa6d-f1c1058d25ba" />
+		<upd:UpdateIdentity UpdateID="4b9492eb-7aff-4117-b896-cecd59e61bc8" />
+		<upd:UpdateIdentity UpdateID="2b4502e0-41cd-4ed8-8714-369c1042cb18" />
+		<upd:UpdateIdentity UpdateID="f052a7b7-940d-41d1-abf2-fd9a666baea3" />
+		<upd:UpdateIdentity UpdateID="88bee16b-4ff8-486e-8ff2-e7a148080ad3" />
+		<upd:UpdateIdentity UpdateID="90316cb0-9dfb-4e05-95df-3a29334d699f" />
+	  </upd:SupersededUpdates>
+	  <upd:Prerequisites>
+		<upd:AtLeastOne IsCategory="true">
+		  <upd:UpdateIdentity UpdateID="72e7624a-5b00-45d2-b92f-e561c0a6a160" />
+		</upd:AtLeastOne>
+		<upd:AtLeastOne IsCategory="true">
+		  <upd:UpdateIdentity UpdateID="0fa1201d-4330-4fa8-8ae9-b877473b6441" />
+		</upd:AtLeastOne>
+		<upd:AtLeastOne>
+		  <upd:UpdateIdentity UpdateID="e5555fe7-924e-4ba0-9039-62ffcd16cf1a" />
+		</upd:AtLeastOne>
+		<upd:AtLeastOne>
+		  <upd:UpdateIdentity UpdateID="03aa8476-15b7-4288-bf9b-286b31f99bd6" />
+		</upd:AtLeastOne>
+	  </upd:Prerequisites>
+	  <upd:BundledUpdates>
+		<upd:AtLeastOne>
+		  <upd:UpdateIdentity RevisionNumber="100" UpdateID="6609771a-1e19-4e99-bc29-38ef76331070" />
+		</upd:AtLeastOne>
+	  </upd:BundledUpdates>
+	</upd:Relationships>
+</upd:Update>

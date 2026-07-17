@@ -153,30 +153,29 @@ public static class UpdateRetriever
 		{
 			if (updates[i] is Update update && update.BundledUpdates.Count > 0)
 			{
-				if (update.BundledUpdates.Count > 1)
-				{
-					throw new NotSupportedException($"Update {update.Id} has multiple bundled updates, which is not supported.");
-				}
-
-				var embeddedBundledId = update.BundledUpdates[0];
-				bundledUpdateIds.Add(embeddedBundledId);
-
-				if (!updateDictionary.TryGetValue(embeddedBundledId, out var bundledIUpdate))
-				{
-					throw new InvalidOperationException($"Bundled update {embeddedBundledId} for update {update.Id} not found in the list of updates.");
-				}
-
-				if (bundledIUpdate is not Update bundledUpdate)
-				{
-					throw new NotSupportedException($"Bundled update {embeddedBundledId} for update {update.Id} is not a software update, which is not supported.");
-				}
-
-				// Pull the architecture from the bundled update
-				var architecture = bundledUpdate.Architecture;
-
-				// Collect all files from bundled updates
 				List<Models.File> mergedFiles = [.. update.Files];
-				mergedFiles.AddRange(bundledUpdate.Files);
+
+				string? architecture = null;
+				foreach (var currentBundledUpdate in update.BundledUpdates)
+				{
+					bundledUpdateIds.Add(currentBundledUpdate);
+
+					if (!updateDictionary.TryGetValue(currentBundledUpdate, out var bundledIUpdate))
+					{
+						throw new InvalidOperationException($"Bundled update {currentBundledUpdate} for update {update.Id} not found in the list of updates.");
+					}
+
+					if (bundledIUpdate is not Update bundledUpdate)
+					{
+						throw new NotSupportedException($"Bundled update {currentBundledUpdate} for update {update.Id} is not a software update, which is not supported.");
+					}
+
+					// Pull the architecture from the bundled update
+					architecture = bundledUpdate.Architecture;
+
+					// Collect all files from bundled updates
+					mergedFiles.AddRange(bundledUpdate.Files);
+				}
 
 				// Create a new Update with merged files
 				updates[i] = update with { Architecture = architecture, Files = mergedFiles };
@@ -221,7 +220,7 @@ public static class UpdateRetriever
 			.Select(x => categories // Resolve the category name from the list of categories
 				.FirstOrDefault(y => y.Id == x.Id)?.Name ?? 
 				$"{x.Id}")], // Fallback to Id if the category is not found
-		BundledUpdates: [.. softwareUpdate.Relationships.BundledUpdates?.Select(x => x.Id) ?? []],
+		BundledUpdates: GetBundledUpdates(softwareUpdate),
 		SupersededUpdates: [.. softwareUpdate.Relationships.SupersededUpdates?.Select(x => x.Id) ?? []],
 		Files: [.. softwareUpdate
 			.ResolvedFiles?
@@ -234,6 +233,19 @@ public static class UpdateRetriever
 				Size = x.Size
 			}) ?? []]
 	);
+
+	private static IReadOnlyList<Guid> GetBundledUpdates(SoftwareUpdate softwareUpdate)
+	{
+		var bundledUpdateIds = softwareUpdate.Relationships.BundledUpdates?.Select(x => x.Id) ?? [];
+		var atLeastOneBundledUpdateIds = softwareUpdate
+			.Relationships
+			.BundledUpdates?
+			.AtLeastOneBundled?
+			.Where(x => !x.IsCategory)?
+			.SelectMany(x => x.UpdateIdentities)?
+			.Select(x => x.Id) ?? [];
+		return [.. bundledUpdateIds.Concat(atLeastOneBundledUpdateIds)];
+	}
 
 	/// <summary>
 	/// Creates a Driver object from a DriverUpdate, resolving categories and localized properties.

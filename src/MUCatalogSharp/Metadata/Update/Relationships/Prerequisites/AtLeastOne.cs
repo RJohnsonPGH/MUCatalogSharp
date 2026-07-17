@@ -7,7 +7,7 @@ namespace MUCatalogSharp.Metadata.Update.Relationships.Prerequisites;
 
 public record AtLeastOne(XPathNavigator Navigator, XmlNamespaceManager Manager) : ICreatable<AtLeastOne>, IMetadataCollection<AtLeastOne>
 {
-	static string[] ICreatable<AtLeastOne>.ValidParentNodes => ["upd:Prerequisites"];
+	static string[] ICreatable<AtLeastOne>.ValidParentNodes => ["upd:Prerequisites", "upd:BundledUpdates"];
 	static string ICreatable<AtLeastOne>.XPathQuery => "upd:AtLeastOne";
 	static AtLeastOne ICreatable<AtLeastOne>.Create(XPathNavigator navigator, XmlNamespaceManager manager) => new(navigator, manager);
 

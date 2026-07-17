@@ -42,15 +42,15 @@ public record UpdateProperties(XPathNavigator Navigator, XmlNamespaceManager Man
 
 	public Uri? MoreInfoUrl => _moreInfoUrl.Value;
 	private readonly Lazy<Uri?> _moreInfoUrl = new(() => 
-		UpdateParser.TryCreateOptionalProperty<ParsableUri>(Navigator, Manager, "@MoreInfoUrl", out var result) ? result?.Value : null);
+		UpdateParser.TryCreateOptionalProperty<ParsableUri>(Navigator, Manager, "upd:MoreInfoUrl/text()", out var result) ? result?.Value : null);
 
 	public Uri? SupportUrl => _supportUrl.Value;
 	private readonly Lazy<Uri?> _supportUrl = new(() => 
-		UpdateParser.TryCreateOptionalProperty<ParsableUri>(Navigator, Manager, "@SupportUrl", out var result) ? result?.Value : null);
+		UpdateParser.TryCreateOptionalProperty<ParsableUri>(Navigator, Manager, "upd:SupportUrl/text()", out var result) ? result?.Value : null);
 
 	public string? KBArticleId => _kbArticleId.Value;
 	private readonly Lazy<string?> _kbArticleId = new(() => 
-		UpdateParser.TryCreateOptionalProperty<string>(Navigator, Manager, "@KbArticleId", out var result) ? result : null);
+		UpdateParser.TryCreateOptionalProperty<string>(Navigator, Manager, "upd:KBArticleID/text()", out var result) ? result : null);
 
 	public bool? OsUpgrade => _osUpgrade.Value;
 	private readonly Lazy<bool?> _osUpgrade = new(() => 
